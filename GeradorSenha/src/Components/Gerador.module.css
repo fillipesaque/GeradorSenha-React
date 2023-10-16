@@ -1,0 +1,27 @@
+.pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer{
+    margin-top: 20px;  
+}
+
+.btnContainer button{
+    padding: 05px;
+    width: 100px;
+    margin: 2rem;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0.5;
+}
+button:hover{
+    margin-left: 1rem;
+    opacity: 1;
+}
